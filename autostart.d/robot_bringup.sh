@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # startup roscore
 if ! screen -ls | grep "roscore"; then
   bash -ic "thor $(hostname) roscore"
