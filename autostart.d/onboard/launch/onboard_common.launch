@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="robot_name" default="johnny5" />
+
+  <group ns="$(arg robot_name)">
+    <!-- start onboard common -->
+    <include file="$(find thor_mang_onboard_launch)/launch/onboard_common.launch" pass_all_args="true"/>
+  </group>
+</launch>
