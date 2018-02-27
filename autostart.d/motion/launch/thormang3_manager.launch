@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="robot_name" default="johnny5" />
+
+  <group ns="$(arg robot_name)">
+    <!-- start onboard common -->
+    <include file="$(find thormang3_manager)/launch/thormang3_manager.launch" pass_all_args="true"/>
+  </group>
+</launch>
