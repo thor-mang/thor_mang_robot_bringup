@@ -6,6 +6,6 @@
 
   <group ns="$(arg robot_name)">
     <!-- start robot basics -->
-    <include file="$(find turtlebot3_onboard_launch)/launch/robot_basics.launch" pass_all_args="true" />
+    <include file="$(find thor_mang_onboard_launch)/launch/robot_basics.launch" pass_all_args="true" />
   </group>
 </launch>

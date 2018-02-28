@@ -2,6 +2,6 @@
 
 # startup roscore
 if ! screen -ls | grep "roscore"; then
-  bash -ic "turtle $(hostname) roscore"
-  bash -ic "turtle wait_for_roscore"
+  bash -ic "thor $(hostname) roscore"
+  bash -ic "thor wait_for_roscore"
 fi
