@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREEXEC="export ROS_MASTER_URI=http://thor-motion:11311; export ROS_IP=192.168.1.11"
+PREEXEC="export ROS_MASTER_URI=http://motion:11311; export ROS_IP=192.168.1.11"
 #DIRECTORIES="$(rospack find thor_mang_robot_bringup)/autostart.d/perception/scripts \
 #             $(rospack find thor_mang_robot_bringup)/autostart.d/perception/launch"
 DIRECTORIES="$(rospack find thor_mang_robot_bringup)/autostart.d/perception/launch"
